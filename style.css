@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.input-title {
+    text-transform: capitalize;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    color: white;
+    margin-top: 0;
+}
+
+.email-element {
+    margin-top: 30px;
+}
+
+.form-element span {
+    margin-bottom: 10px;
+}
+
+.email{
+    border: white 2px solid;
+    padding: 10px 5px;
+    border-radius: 100rem;
+    transition: all 500ms ease;
+    text-indent: 20px;
+    padding-top: 13px;
+    font-size: 18px;
+    color: rgb(0, 238, 255);
+    background-color: black;
+    width: 500px;
+}
+
+.email:focus {
+    outline: none;
+    border: rgb(0, 238, 255) 2px solid;
+    transition: all 500ms ease;
+}
+
+.email::placeholder {
+    font-size: 18px;
+    color: white;
+}
+
+.email:focus::placeholder {
+    color: rgb(0, 238, 255);
+}
+
+
+.submit-btn {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    outline: none;
+    border-radius: 100rem;
+    font-size: 20px;
+    display: flex;
+    padding-top: 13px;
+    justify-content: center;
+    text-align: center;
+    border-image: none;
+    border: none;
+    transition: all 500ms ease;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.submit-btn:hover {
+    width: 500px;
+    background-color: red;
+    color: white;
+}
